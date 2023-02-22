@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * print_to-98 - prints from n to 98 separated by a comma and space
