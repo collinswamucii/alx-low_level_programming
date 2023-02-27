@@ -7,10 +7,10 @@
 
 void _puts(char *str)
 {
-	while (*str)
+	while (*str != '\0')
 	{
-		_put(char *str++);
+		_putchar(*str + 0);
+		++str;
 	}
-	
-	_puts(char '\n');
+	_putchar('\n');
 }
